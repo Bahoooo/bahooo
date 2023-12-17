@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 0; /* Add top padding to ensure form visibility */
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout */
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 0; /* Adjusted margin to include space at the top */
+    background-color: #dfe6bd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-bar{
+    display: flex;
+    justify-content:space-between;   
+}
+
+.project-name{
+    color: rgb(238, 0, 255);
+}
+
+.project-name span{
+    color: rgb(231, 174, 31);
+}
+
+.question {
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-style: italic;
+}
+.question-text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #e0f7fa;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Additional styles for recommendation page */
+#giftRecommendations {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 20px; /* Add padding to the left and right sides */
+}
+
+#giftList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Adjust the gap between columns */
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.price-tag {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Adjusted styling for "Go Back" button */
+button {
+    margin-top: 20px;
+    cursor: pointer;
+    background:linear-gradient(to right, rgb(0, 136, 255), red, rgb(255, 234, 0));
+    color: #ddd;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(129, 124, 124);
+}
