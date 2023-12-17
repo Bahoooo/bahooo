@@ -63,6 +63,7 @@ const productList = [
       recipient: 'Colleague',
       age: '20-25',
       gender: 'Male',
+      gender: 'Female',
       occasion: 'Secret Santa',
       interests: ['Arts','Sports','Hiking','Science','Other'],
       budget: '0-30',
